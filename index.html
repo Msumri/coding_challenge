@@ -22,19 +22,31 @@
             font-size: 18px;
             color: #666;
         }
+        .flag-format, .flag-count {
+            margin: 10px 0;
+        }
+        .flag-format {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        .flag-count {
+            font-size: 18px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
     <!-- Main heading of the page -->
     <h1>Welcome to Yeti Capture the Flag</h1>
     <!-- Description of the challenge -->
-    <p class="flag-description">
-        The flag will look like this: <code>Yeti{some_code}</code>. 
-    </p>
-        <p class="flag-description">
-
-    There are 3 flags in this challenge.
-                </p>
-
+    <div class="flag-description">
+        <p class="flag-format">
+            The flag will look like this: <code>Yeti{some_code}</code>.
+        </p>
+        <p class="flag-count">
+            There are 3 flags in this challenge.
+        </p>
+    </div>
 </body>
 </html>
