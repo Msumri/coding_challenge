@@ -1,2 +1,2 @@
-Disable = style.css
+Disallow: style.css
 Yeti{RG9pbmcgTWVhbmluZ2Z1bCBXb3Jr}
